@@ -9,8 +9,9 @@ class ComposerStaticInit140243f49ee7aaed4cec7d19d54aa961
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
-        'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
         '0d59ee240a4cd96ddbb4ff164fccea4d' => __DIR__ . '/..' . '/symfony/polyfill-php73/bootstrap.php',
+        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
+        'f598d06aa772fa33d905e87be6398fb1' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/bootstrap.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -40,7 +41,9 @@ class ComposerStaticInit140243f49ee7aaed4cec7d19d54aa961
             'Symfony\\Component\\Yaml\\' => 23,
             'Symfony\\Component\\WebLink\\' => 26,
             'Symfony\\Component\\VarExporter\\' => 30,
+            'Symfony\\Component\\VarDumper\\' => 28,
             'Symfony\\Component\\Validator\\' => 28,
+            'Symfony\\Component\\Stopwatch\\' => 28,
             'Symfony\\Component\\Serializer\\' => 29,
             'Symfony\\Component\\Security\\Http\\' => 32,
             'Symfony\\Component\\Security\\Guard\\' => 33,
@@ -66,6 +69,7 @@ class ComposerStaticInit140243f49ee7aaed4cec7d19d54aa961
             'Symfony\\Component\\Cache\\' => 24,
             'Symfony\\Component\\Asset\\' => 24,
             'Symfony\\Bundle\\WebServerBundle\\' => 31,
+            'Symfony\\Bundle\\WebProfilerBundle\\' => 33,
             'Symfony\\Bundle\\TwigBundle\\' => 26,
             'Symfony\\Bundle\\SecurityBundle\\' => 30,
             'Symfony\\Bundle\\MakerBundle\\' => 27,
@@ -175,9 +179,17 @@ class ComposerStaticInit140243f49ee7aaed4cec7d19d54aa961
         array (
             0 => __DIR__ . '/..' . '/symfony/var-exporter',
         ),
+        'Symfony\\Component\\VarDumper\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/var-dumper',
+        ),
         'Symfony\\Component\\Validator\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/validator',
+        ),
+        'Symfony\\Component\\Stopwatch\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/stopwatch',
         ),
         'Symfony\\Component\\Serializer\\' => 
         array (
@@ -278,6 +290,10 @@ class ComposerStaticInit140243f49ee7aaed4cec7d19d54aa961
         'Symfony\\Bundle\\WebServerBundle\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/web-server-bundle',
+        ),
+        'Symfony\\Bundle\\WebProfilerBundle\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/web-profiler-bundle',
         ),
         'Symfony\\Bundle\\TwigBundle\\' => 
         array (
